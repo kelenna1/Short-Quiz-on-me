@@ -69,3 +69,42 @@ body{
 .incorrect{
     background: #ef6060;
 }
+.start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 90%;
+    max-width: 650p;
+    margin: 100px auto 0;
+    padding: 30px;
+}
+.fresh{
+    padding: 50px 100px 50px 100px;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: sans-serif;
+    border: 2px;
+    border-radius: 30px;
+    background:  #000;
+    color: #00ffd5;
+    transition: .5s;
+    animation: animate 1s infinite;
+}
+.fresh:hover{
+    background: #00ffd5;
+    color: #222;
+    box-shadow: 0 0 5px, 0 0 25px, 0 0 100px, 0 0 500px;
+    -webkit-box-reflect: below 1px liner-gradient(transparent, #0005);
+}
+a .fresh{
+    
+}
+@keyframes animate {
+    0% {
+      border-color: transparent;
+    }
+    100% {
+      border-color: #00ffd5; /* Match button text color */
+    }
+  }
