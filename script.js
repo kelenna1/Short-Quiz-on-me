@@ -18,7 +18,7 @@ const questions = [
         ]
     },
     {
-        question: "What's my middle name?",
+        question: "What's my third name?",
         answers: [
             { text: "Odinaka", correct: false},
             { text: "Ikenna", correct: false},
